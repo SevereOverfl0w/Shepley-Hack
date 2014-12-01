@@ -7,3 +7,4 @@ function noBeDraggable(){
 noBeDraggable();
 window.addEventListener('DOMNodeInserted', noBeDraggable);
 window.addEventListener('DOMElementNameChanged', noBeDraggable);
+window.addEventListener('load', noBeDraggable); // Script may be BEFORE images on load.
