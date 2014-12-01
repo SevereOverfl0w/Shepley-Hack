@@ -4,6 +4,6 @@ function noBeDraggable(){
     images[i].setAttribute('draggable', 'false');
 }
 
-window.addEventListener('load', noBeDraggable);
+noBeDraggable();
 window.addEventListener('DOMNodeInserted', noBeDraggable);
 window.addEventListener('DOMElementNameChanged', noBeDraggable);
